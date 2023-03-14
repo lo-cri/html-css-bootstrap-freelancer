@@ -7,6 +7,7 @@
 
 .navbar{
     color: white;
+    padding: 0;
 }
 
 .container-fluid{
@@ -76,7 +77,7 @@ header img{
     padding: 0 4px;
   }
   
-  .column {
+  /* .column {
     -ms-flex: 25%;
     flex: 25%;
     max-width: 25%;
@@ -87,7 +88,12 @@ header img{
     margin-top: 10px;
     vertical-align: middle;
     width: 100%;
-  }
+  } */
+
+.row .col img{
+    border-radius: 15px;
+    margin: 15px 0;
+}
 
 .about{
     background-color: #1BBC9C;
@@ -132,13 +138,17 @@ header img{
 }
 
 .links-contact{
-    padding: 20px 50px;
-    width: calc((100% / 2) - 50px);
+    margin: 0 50px;
 }
 
 .contact button{
     margin: 0 50px;
     background-color: #1BBC9C;
+    border: none;
+}
+
+.contact button:hover{
+    background-color: #3A546D;
 }
 
 /*footer*/
@@ -149,20 +159,13 @@ footer{
     text-align: center;
 }
 
-.link-footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: calc(80% - 2px);
-}
-
 .border-radius{
     border: 1px solid white;
     border-radius: 50%;
     padding: 10px 10px;
 }
 
-.link-footer a{
+.col p a{
     color:#1BBC9C;
     text-decoration: none;
 }
@@ -170,5 +173,6 @@ footer{
 .bg-dark{
     background-color: #2C3E50;
     height: 80px;
-    padding: 30px;
+    padding: 40px;
+    margin-bottom: -20px;
 }
