@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.navbar{
+    color: white;
+}
+
+.container-fluid{
+    background-color: #2C3E50;
+    padding: 10px 70px;
+}
+
+.container-fluid a{
+    color: white;
+}
+
+#navbarNavAltMarkup{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header{
+    background-color: #1BBC9C;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+header img{
+    width: 250px;
+    padding: 50px;
+}
+
+.line-star{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.starred-line{
+    border: 1px solid white;
+    width: 80px;
+}
+
+.portfolio{
+    padding: 20px 200px;
+    color: black;
+    text-align: center;
+}
+
+.portfolio .line-star{
+    color: black;
+}
+
+.portfolio .starred-line{
+    border: 1px solid black;
+}
+
+/* grid imgs*/
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+.about{
+    background-color: #1BBC9C;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about .line-star{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+.about .starred-line{
+    border: 1px solid white;
+    width: 80px;
+}
+
+.btn-outline-secondary{
+    margin: 20px 0;
+}
+
+.contact{
+    color: black;
+    padding: 20px 0;
+}
+
+.contact h3{
+    text-align: center;
+}
+
+.contact .line-star{
+    color: black;
+}
+
+.contact .starred-line{
+    border: 1px solid black;
+}
+
+.links-contact{
+    padding: 20px 50px;
+    width: calc((100% / 2) - 50px);
+}
+
+.contact button{
+    margin: 0 50px;
+    background-color: #1BBC9C;
+}
+
+/*footer*/
+footer{
+    background-color: #3A546D;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.link-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: calc(80% - 2px);
+}
+
+.border-radius{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+.link-footer a{
+    color:#1BBC9C;
+    text-decoration: none;
+}
+
+.bg-dark{
+    background-color: #2C3E50;
+    height: 80px;
+    padding: 30px;
+}
